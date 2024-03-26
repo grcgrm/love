@@ -1,9 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
 body {
   background-color: #ffff;
   min-height: 100vh;
   font: normal 16px sans-serif;
   padding: 40px 0;
-  font-family: 'Georgia', serif;
+  font-family: 'Garamond', sans-serif;
 }
 
 
@@ -11,14 +14,16 @@ body {
   text-align: center;
   margin-top: 50px;
   font-weight: bold;
-  font-size: 90px;
+  font-size: 135px;
+  font-family: 'Allison', cursive;
 }
 
 .gallery-container p.page-description {
   text-align: center;
-  margin: 25px auto;
+  margin: 15px;
   font-size: 38px;
   color: #000000;
+  font-family: 'Garamond', sans-serif;
 }
 
 .tz-gallery {
@@ -75,13 +80,13 @@ body {
 }
 
 .row p.desc {
-  margin: 30px;
-  font-size: 28px;
-  font-weight: 600;
+  margin: 40px;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .row p.desc span{
-  font-size: 25px;
+  font-size: 35px;
   font-weight: normal;
   color: #000;
 }
@@ -93,7 +98,7 @@ body {
     width: 100%;
     border-radius: 5px;
     overflow: hidden;
-    padding: 20px;
+    padding: 30px;
   }
 
   /* Style the accordion item */
@@ -106,7 +111,9 @@ body {
   .accordion-header {
     background-color: #122964;
     color: #fff;
-    padding: 10px 20px;
+    font-size: 45px;
+    font-weight: 600;
+    padding: 50px 20px;
     position: relative; /* Add position relative */
     cursor: pointer;
   }
@@ -115,7 +122,7 @@ body {
     content: "\f067"; /* Unicode for plus icon */
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    font-size: 20px;
+    font-size: 30px;
     color: #ffffff;
     position: absolute;
     left: 40px;
@@ -140,6 +147,6 @@ body {
 
   /* Style the active accordion header */
   .active {
-    background-color: #24369c;
+    background-color: #0e1b64;
     color: #fff;
   }
