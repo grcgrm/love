@@ -6,25 +6,19 @@ body {
   font-family: 'Georgia', serif;
 }
 
-.container.gallery-container {
-  background-color: #fff;
-  color: #35373a;
-  min-height: 100vh;
-  padding: 30px 10px;
-}
 
 .gallery-container h1 {
   text-align: center;
   margin-top: 50px;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 90px;
 }
 
 .gallery-container p.page-description {
   text-align: center;
   margin: 25px auto;
-  font-size: 28px;
-  color: #1a4b8b;
+  font-size: 38px;
+  color: #000000;
 }
 
 .tz-gallery {
@@ -80,14 +74,14 @@ body {
   background-color: transparent !important;
 }
 
-.desc {
-  margin: 5%;
-  font-size: 25px;
-  font-weight: bold;
+.row p.desc {
+  margin: 20px;
+  font-size: 28px;
+  font-weight: 600;
 }
 
-.desc span{
-  font-size: 22px;
+.row p.desc span{
+  font-size: 25px;
   font-weight: normal;
   color: #000;
 }
