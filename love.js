@@ -47,3 +47,27 @@ var elements = document.querySelectorAll('.tz-gallery .lightbox');
 elements.forEach(function(element) {
     element.style.setProperty('--content', '"' + getRandomContent() + '"');
 });
+
+ // Get all accordion headers
+ var accHeaders = document.querySelectorAll('.accordion-header');
+
+ // Loop through all accordion headers
+ accHeaders.forEach(function(accHeader) {
+   // Add click event listener to each accordion header
+   accHeader.addEventListener('click', function() {
+     // Check if the clicked accordion is already active
+     var isActive = this.classList.contains('active');
+
+     // Close all accordion items
+     accHeaders.forEach(function(header) {
+       header.classList.remove('active');
+       header.nextElementSibling.style.display = 'none';
+     });
+
+     // If the clicked accordion was not active, open it
+     if (!isActive) {
+       this.classList.toggle('active');
+       this.nextElementSibling.style.display = 'block';
+     }
+   });
+ });

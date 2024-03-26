@@ -75,7 +75,7 @@ body {
 }
 
 .row p.desc {
-  margin: 20px;
+  margin: 30px;
   font-size: 28px;
   font-weight: 600;
 }
@@ -85,3 +85,61 @@ body {
   font-weight: normal;
   color: #000;
 }
+
+
+
+  /* Style the accordion container */
+  .accordion {
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 20px;
+  }
+
+  /* Style the accordion item */
+  .accordion-item {
+    background-color: #f9f9f9;
+    border-bottom: 3px solid #ffffff;
+  }
+
+  /* Style the accordion header (title) */
+  .accordion-header {
+    background-color: #122964;
+    color: #fff;
+    padding: 10px 20px;
+    position: relative; /* Add position relative */
+    cursor: pointer;
+  }
+
+  .accordion-header::before {
+    content: "\f067"; /* Unicode for plus icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  /* Minus icon when accordion is active */
+.accordion-header.active::before {
+  content: "\f068"; /* Unicode for minus icon */
+}
+
+
+  /* Style the accordion content */
+  .accordion-content {
+    padding: 20px;
+    display: none;
+    transition: max-height 0.3s ease; /* Added transition for max-height */
+  }
+  .accordion-content.open {
+    display: block;
+  }
+
+  /* Style the active accordion header */
+  .active {
+    background-color: #24369c;
+    color: #fff;
+  }
