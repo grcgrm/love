@@ -17,12 +17,13 @@ body {
   text-align: center;
   margin-top: 50px;
   font-weight: bold;
+  font-size: 80px;
 }
 
 .gallery-container p.page-description {
   text-align: center;
   margin: 25px auto;
-  font-size: 22px;
+  font-size: 28px;
   color: #1a4b8b;
 }
 
@@ -77,4 +78,16 @@ body {
 
 .baguetteBox-button {
   background-color: transparent !important;
+}
+
+.desc {
+  margin: 5%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.desc span{
+  font-size: 22px;
+  font-weight: normal;
+  color: #000;
 }
