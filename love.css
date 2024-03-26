@@ -1,29 +1,29 @@
 body {
-  background-color: #434c50;
+  background-color: #ffff;
   min-height: 100vh;
   font: normal 16px sans-serif;
   padding: 40px 0;
+  font-family: 'Georgia', serif;
 }
 
 .container.gallery-container {
   background-color: #fff;
   color: #35373a;
   min-height: 100vh;
-  padding: 30px 50px;
+  padding: 30px 10px;
 }
 
 .gallery-container h1 {
   text-align: center;
   margin-top: 50px;
-  font-family: 'Droid Sans', sans-serif;
   font-weight: bold;
 }
 
 .gallery-container p.page-description {
   text-align: center;
   margin: 25px auto;
-  font-size: 18px;
-  color: #999;
+  font-size: 22px;
+  color: #1a4b8b;
 }
 
 .tz-gallery {
@@ -77,10 +77,4 @@ body {
 
 .baguetteBox-button {
   background-color: transparent !important;
-}
-
-@media(max-width: 768px) {
-  body {
-      padding: 0;
-  }
 }
