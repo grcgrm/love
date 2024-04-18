@@ -46,3 +46,4 @@ function updateActiveDot() {
 // Call the updateActiveDot function when the carousel is scrolled
 carousel.addEventListener("scroll", updateActiveDot);
 updateActiveDot();
+
