@@ -29,7 +29,7 @@ carousel.addEventListener("touchend", () => {
 });
 
 // Function to update dot color when active
-function updateActiveDot() {
+function updateActiveDot() { 
   const scrollLeft = carousel.scrollLeft;
   const currentIndex = Math.round(scrollLeft / carousel.offsetWidth);
   const dots = dotsContainer.querySelectorAll(".dot");

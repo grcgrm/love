@@ -28,9 +28,9 @@ body{
   overflow-x: hidden; /* Ensure only one image is visible */
   overflow-y: hidden; /* Ensure no vertical scrollbar appears */
   scroll-snap-type: x mandatory; /* Ensure smooth scrolling */
-}
+} 
 
-.carousel img {
+.carousel img{
   flex: 0 0 auto; /* Ensure the images don't shrink */
   scroll-snap-align: start; /* Ensure each image aligns to the start */
   transition: scroll 0.5s ease-in-out; /* Apply smooth transition */
@@ -63,6 +63,9 @@ body{
 
 @media screen and (min-width: 320px) {
   .carousel img {
+    width: 100%;
+  }
+  .carousel div {
     width: 100%;
   }
 }
